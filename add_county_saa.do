@@ -1,4 +1,6 @@
 
+*** County --> SSA codes are available at NBER: "https://www.nber.org/data/ssa-fips-state-county-crosswalk.html"
+
 *** Add county_ssa var to each file ***
 forval i = 1/7 {
 	use "C:\Users\marku\Desktop\ssa_fip\ssa_fips_state_county201`i'.dta" , clear
